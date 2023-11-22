@@ -1,0 +1,26 @@
+.nav {
+    background-color: #081b29;
+    width: 100vw;
+    height: 5em;
+    display: flex;
+    place-items: center;
+    justify-content: space-around;
+}
+.container {
+    display: flex;
+    gap: 2em;
+    position: relative;
+}
+.button {
+    height: 1.7em;
+    border: none;
+    border-radius: 0.2em;
+    background: none;
+    font-size: 1em;
+    color: #ededed;
+}
+.button:hover {
+    background-color: #112e42;
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
