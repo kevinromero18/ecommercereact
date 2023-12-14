@@ -12,15 +12,24 @@
     position: relative;
 }
 .button {
-    height: 1.7em;
+    height: 2em;
     border: none;
     border-radius: 0.2em;
     background: none;
-    font-size: 1em;
+    font-size: 1.2em;
     color: #ededed;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 .button:hover {
     background-color: #112e42;
     cursor: pointer;
     transition: all 0.7s ease;
 }
+.logo {
+    color: #ededed;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+

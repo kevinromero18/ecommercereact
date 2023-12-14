@@ -4,8 +4,8 @@
     margin: auto;
 }
 .container {
-    width: 2.7em;
-    height: 2.7em;
+    width: 3.5em;
+    height: 3.5em;
     display: flex;
     border-radius: 50%;
 }
@@ -13,4 +13,10 @@
     background-color: #112e42;
     cursor: pointer;
     transition: all 0.7s ease;
+}
+.count {
+    color: #ededed;
+    position: relative;
+    bottom: -1.7em;
+    left: -.5em;
 }
